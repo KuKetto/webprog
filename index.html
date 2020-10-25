@@ -1,0 +1,267 @@
+<!doctype html>
+<html lang="hu">
+<head>
+	<title>Webprogramozás I.</title>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css" integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="index.css">
+</head>
+<body>
+	<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+		<button class="navbar-toggler" data-toggle="collapse" data-target="#collapse_target">
+			<span class="navbar-toggler-icon"></span>
+		</button>
+
+		<div class="collapse navbar-collapse" id="collapse_target">
+			<ul class="navbar-nav nav">
+				<li class="nav-item">
+					<a class="nav-link active" href="#home" data-toggle="tab">Home</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#code" data-toggle="tab">Weboldal kódja</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#table" data-toggle="tab">Táblázat</a>
+				</li>
+				<li class="nav-item dropdown">
+					<a class="nav-link dropdown-toggle" data-toggle="dropdown" data-target="dropdown_target" href="#">
+						Űrlapok
+						<span class="caret"></span>
+					</a>
+					<div class="dropdown-menu" aria-labelledby="dropdown_target">
+						<a class="dropdown-item" href="#form1" data-toggle="tab">User Input Form</a>
+						<div class="dropdown-divider"></div>
+						<a class="dropdown-item" href="#form2" data-toggle="tab">Application Form</a>
+					</div>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#video" data-toggle="tab">Videó</a>
+				</li>
+				<li class="nav-item">
+					<a class="nav-link" href="#gallery" data-toggle="tab">Galléria</a>
+				</li>
+			</ul>
+		</div>
+	</nav>
+	<div class="tab-content">
+		<div role="tabpanel" class="tab-pane active" id="home">
+			<h1 class="middletext">Webprogramozás I. hatodik feladat</h1>
+			<p id="list">Rendezett listák rendezetlen listázása:</p>
+			<ul>
+				<li>
+					"macska" szinonimái:
+					<ol>
+						<li>cica</li>
+						<li>cicus</li>
+						<li>cirmos</li>
+					</ol>
+				</li>
+				<li>
+					"kutya" szinonimái:
+					<ol>
+						<li>eb</li>
+						<li>kutyus</li>
+						<li>kutyuli</li>
+					</ol>
+				</li>
+			</ul>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="code">
+			<h3 id="code" class="middletext">Hogyan is néz ki a weboldal kódja?</h3>
+			<img id="img" src="https://i.imgur.com/yQguP4n.png"><br>
+			<a class="middletext" href="https://pastebin.com/Fh5fTeAk">A weboldal teljes kódja</a>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="table">
+			<table id="table" class="t01">
+				<tr>
+					<td id="tdtitle" colspan="8">3 próba bajnokság</td>
+				</tr>
+				<tr>
+					<td id="tdmiddletext" rowspan="2">Nevezők</td>
+					<td id="tdgreen" colspan="2">futás</td>
+					<td id="tdred" colspan="2">távolugrás</td>
+					<td id="tdblue" colspan="2">súlylökés</td>
+					<td id="tdmiddletext" rowspan="2">Összes pont</td>
+				</tr>
+				<tr>
+					<td id="tdmiddletext">idő</td>
+					<td id="tdmiddletext">pontszám</td>
+					<td id="tdmiddletext">táv</td>
+					<td id="tdmiddletext">pontszám</td>
+					<td id="tdmiddletext">súly</td>
+					<td id="tdmiddletext">pontszám</td>
+				</tr>
+				<tr>
+					<td id="tdmiddletext">Zoli</td>
+					<td id="tdmiddletext">03:12,2</td>
+					<td id="tdmiddletext">4</td>
+					<td id="tdmiddletext">4,25 m</td>
+					<td id="tdmiddletext">5</td>
+					<td id="tdmiddletext">47,0 kg</td>
+					<td id="tdmiddletext">4</td>
+					<td id="tdmiddletext">13</td>
+				</tr>
+				<tr>
+					<td id="tdmiddletext">Gergő</td>
+					<td id="tdmiddletext">04:20,6</td>
+					<td id="tdmiddletext">2</td>
+					<td id="tdmiddletext">3,67 m</td>
+					<td id="tdmiddletext">2</td>
+					<td id="tdmiddletext">49,5 kg</td>
+					<td id="tdmiddletext">4</td>
+					<td id="tdmiddletext">8</td>
+				</tr>
+				<tr>
+					<td id="tdmiddletext">Ákos</td>
+					<td id="tdmiddletext">03:09,2</td>
+					<td id="tdmiddletext">5</td>
+					<td id="tdmiddletext">4,02 m</td>
+					<td id="tdmiddletext">4</td>
+					<td id="tdmiddletext">37,0 kg</td>
+					<td id="tdmiddletext">3</td>
+					<td id="tdmiddletext">12</td>
+				</tr>
+				<tr>
+					<td id="tdmiddletext">Gábor</td>
+					<td id="tdmiddletext">05:34,7</td>
+					<td id="tdmiddletext">1</td>
+					<td id="tdmiddletext">3,85 m</td>
+					<td id="tdmiddletext">3</td>
+					<td id="tdmiddletext">65,5kg</td>
+					<td id="tdmiddletext">5</td>
+					<td id="tdmiddletext">8</td>
+				</tr>
+				<tr>
+					<td id="tdmiddletext">Géza</td>
+					<td id="tdmiddletext">03:45,1</td>
+					<td id="tdmiddletext">3</td>
+					<td id="tdmiddletext">3,59 m</td>
+					<td id="tdmiddletext">2</td>
+					<td id="tdmiddletext">67,0 kg</td>
+					<td id="tdmiddletext">5</td>
+					<td id="tdmiddletext">9</td>
+				</tr>
+			</table>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="form1">
+			<form class="form01">
+				<fieldset>
+					<h1>User Input Form</h1>
+					<fieldset>
+						<legend>Personal Particular</legend>
+						<label for="name">Name:</label>
+						<input type="text" value="Minta János" name="name"><br>
+						<label for="pwd">Password:</label>
+						<input type="password" minlength="8" name="pwd"><br>
+						<label for="gender">Gender:</label>
+						<input type="radio" id="male" name="gender">
+						<label for="male">Male</label>
+						<input type="radio" id="female" name="gender">
+						<label for="female">Female</label><br>
+						<label for="age">Age:</label>
+						<select>
+							<option value="0"><1 year old</option>
+							<option value="14">1-14 year old</option>
+							<option value="18">14-18 year old</option>
+							<option value="30">18-30 year old</option>
+							<option value="65">30-65 year old</option>
+							<option value="70">65+ year old</option>
+						</select>
+					</fieldset>
+					<fieldset>
+						<legend>Languages</legend>
+						<input type="checkbox" name="lang1">
+						<label for="lang1">Java</label>
+						<input type="checkbox" name="lang2">
+						<label for="lang2">C/C++</label>
+						<input type="checkbox" name="lang3">
+						<label for="lang3">C#</label>
+					</fieldset>
+					<fieldset>
+						<legend>Instruction</legend>
+						<textarea rows="4" cols="50">Enter your instruction here...</textarea>
+					</fieldset>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Clear">
+				</fieldset>
+			</form>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="form2">
+			<form class="form02">
+				<fieldset>
+					<legend>Application form</legend>
+					<label for="fname">Full Name</label>
+					<input type="text" value="Minta János" name="fname"><br>
+					<label for="mail">Email</label>
+					<input type="email" name="email"><br>
+					<label for="gender">Gender:</label>
+					<input type="radio" id="male" name="gender">
+					<label for="male">Male</label>
+					<input type="radio" id="female" name="gender">
+					<label for="female">Female</label><br>
+					<label for="nat">Nationality</label>
+					<select>
+						<option value="hu">Hungarian</option>
+						<option value="en">English</option>
+						<option value="de">German</option>
+						<option value="sk">Slovak</option>
+						<option value="pl">Polish</option>
+						<option value="jp">Japanase</option>
+					</select><br>
+					<label for="skill">Skills</label>
+					<input type="checkbox" name="skill"><label for="skill">Asp.Net</label>
+					<input type="checkbox" name="skill"><label for="skill">jQuery</label>
+					<input type="checkbox" name="skill"><label for="skill">MVC</label>
+					<input type="checkbox" name="skill"><label for="skill">Sql Server</label><br>
+					<label for="post">Post applying for</label>
+					<input type="radio" id="trainee" name="post">
+					<label for="trainee">Trainee</label>
+					<input type="radio" id="se" name="post">
+					<label for="se">Software Engineer</label>
+					<input type="radio" id="tl" name="post">
+					<label for="tl">Team Leader</label>
+					<input type="radio" id="pj" name="post">
+					<label for="pj">Project Manager</label><br>
+					<label for="file">Upload resume</label>
+					<input type="file" name="file"><br>
+					<label name="resume">Paste your resume</label><br>
+					<textarea rows="4" cols="50" name="resume">Sample resume text...</textarea><br>
+					<input type="checkbox" name="notify">
+					<label name="notify">Notify me the status via Email</label><br>
+					<input type="radio" name="agree">
+					<label for="agree">I agree to terms & conditions</label><br>
+					<input type="submit" value="Submit">
+					<input type="reset" value="Reset">
+				</fieldset>
+			</form>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="video">
+			<iframe class="video" width="560" height="315" src="https://www.youtube.com/embed/videoseries?controls=0&autoplay=1&loop=1;list=PLlZgipf-J0ZsLVP-32c8tWBfA5fsehXUq" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</div>
+		<div role="tabpanel" class="tab-pane fade" id="gallery">
+			<div id="carouselfade" class="carousel slide carousel-fade" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active">
+						<img src="chungus.jpg" class="d-block w-100" alt="BIG BIG CHUNGUS">
+					</div>
+					<div class="carousel-item">
+						<img src="tom.jpg" class="d-block w-100" alt="Tom things">
+					</div>
+					<div class="carousel-item">
+						<img src="perry.png" class="d-block w-100" alt="Perry ate a whole cheese">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselfade" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselfade" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
+		</div>
+		<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx" crossorigin="anonymous"></script>
+	</div>
+</body>
+</html>
